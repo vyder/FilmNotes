@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11B2118" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Exposure" representedClassName="Exposure">
+        <attribute name="date_created" optional="YES" attributeType="Date"/>
+    </entity>
+    <elements>
+        <element name="Exposure" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>

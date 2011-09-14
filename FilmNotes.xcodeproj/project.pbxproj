@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B4CD9D14202AB800748595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CD9C14202AB800748595 /* UIKit.framework */; };
+		03B4CD9F14202AB800748595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CD9E14202AB800748595 /* Foundation.framework */; };
+		03B4CDA114202AB800748595 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CDA014202AB800748595 /* CoreGraphics.framework */; };
+		03B4CDA314202AB800748595 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CDA214202AB800748595 /* CoreData.framework */; };
+		03B4CDA914202AB800748595 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B4CDA714202AB800748595 /* InfoPlist.strings */; };
+		03B4CDAB14202AB800748595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4CDAA14202AB800748595 /* main.m */; };
+		03B4CDAF14202AB800748595 /* FilmNotesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4CDAE14202AB800748595 /* FilmNotesAppDelegate.m */; };
+		03B4CDB214202AB800748595 /* FilmNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03B4CDB014202AB800748595 /* FilmNotes.xcdatamodeld */; };
+		03B4CDB614202AB800748595 /* FilmNotesAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4CDB514202AB800748595 /* FilmNotesAppDelegate_iPhone.m */; };
+		03B4CDB914202AB800748595 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B4CDB714202AB800748595 /* MainWindow_iPhone.xib */; };
+		03B4CDBD14202AB800748595 /* FilmNotesAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4CDBC14202AB800748595 /* FilmNotesAppDelegate_iPad.m */; };
+		03B4CDC014202AB800748595 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B4CDBE14202AB800748595 /* MainWindow_iPad.xib */; };
+		03B4CDC814202AB800748595 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CDC714202AB800748595 /* SenTestingKit.framework */; };
+		03B4CDC914202AB800748595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CD9C14202AB800748595 /* UIKit.framework */; };
+		03B4CDCA14202AB800748595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CD9E14202AB800748595 /* Foundation.framework */; };
+		03B4CDCB14202AB800748595 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CDA014202AB800748595 /* CoreGraphics.framework */; };
+		03B4CDCC14202AB800748595 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B4CDA214202AB800748595 /* CoreData.framework */; };
+		03B4CDD414202AB800748595 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03B4CDD214202AB800748595 /* InfoPlist.strings */; };
+		03B4CDD614202AB800748595 /* FilmNotesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 03B4CDD514202AB800748595 /* FilmNotesTests.h */; };
+		03B4CDD814202AB800748595 /* FilmNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4CDD714202AB800748595 /* FilmNotesTests.m */; };
+		03B4CDE31420303300748595 /* Exposure.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4CDE21420303300748595 /* Exposure.m */; };
+		03B4CDEB142030FF00748595 /* ExposureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4CDEA142030FF00748595 /* ExposureViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B4CDCD14202AB800748595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B4CD8F14202AB800748595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B4CD9714202AB800748595;
+			remoteInfo = FilmNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B4CD9814202AB800748595 /* FilmNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B4CD9C14202AB800748595 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03B4CD9E14202AB800748595 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03B4CDA014202AB800748595 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03B4CDA214202AB800748595 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03B4CDA614202AB800748595 /* FilmNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilmNotes-Info.plist"; sourceTree = "<group>"; };
+		03B4CDA814202AB800748595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03B4CDAA14202AB800748595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03B4CDAC14202AB800748595 /* FilmNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilmNotes-Prefix.pch"; sourceTree = "<group>"; };
+		03B4CDAD14202AB800748595 /* FilmNotesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilmNotesAppDelegate.h; sourceTree = "<group>"; };
+		03B4CDAE14202AB800748595 /* FilmNotesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmNotesAppDelegate.m; sourceTree = "<group>"; };
+		03B4CDB114202AB800748595 /* FilmNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FilmNotes.xcdatamodel; sourceTree = "<group>"; };
+		03B4CDB414202AB800748595 /* FilmNotesAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FilmNotesAppDelegate_iPhone.h; path = iPhone/FilmNotesAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		03B4CDB514202AB800748595 /* FilmNotesAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FilmNotesAppDelegate_iPhone.m; path = iPhone/FilmNotesAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		03B4CDB814202AB800748595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		03B4CDBB14202AB800748595 /* FilmNotesAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FilmNotesAppDelegate_iPad.h; path = iPad/FilmNotesAppDelegate_iPad.h; sourceTree = "<group>"; };
+		03B4CDBC14202AB800748595 /* FilmNotesAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FilmNotesAppDelegate_iPad.m; path = iPad/FilmNotesAppDelegate_iPad.m; sourceTree = "<group>"; };
+		03B4CDBF14202AB800748595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		03B4CDC614202AB800748595 /* FilmNotesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmNotesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B4CDC714202AB800748595 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		03B4CDD114202AB800748595 /* FilmNotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilmNotesTests-Info.plist"; sourceTree = "<group>"; };
+		03B4CDD314202AB800748595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03B4CDD514202AB800748595 /* FilmNotesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilmNotesTests.h; sourceTree = "<group>"; };
+		03B4CDD714202AB800748595 /* FilmNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmNotesTests.m; sourceTree = "<group>"; };
+		03B4CDE11420303300748595 /* Exposure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exposure.h; sourceTree = "<group>"; };
+		03B4CDE21420303300748595 /* Exposure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exposure.m; sourceTree = "<group>"; };
+		03B4CDE9142030FF00748595 /* ExposureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExposureViewController.h; sourceTree = "<group>"; };
+		03B4CDEA142030FF00748595 /* ExposureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExposureViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B4CD9514202AB800748595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4CD9D14202AB800748595 /* UIKit.framework in Frameworks */,
+				03B4CD9F14202AB800748595 /* Foundation.framework in Frameworks */,
+				03B4CDA114202AB800748595 /* CoreGraphics.framework in Frameworks */,
+				03B4CDA314202AB800748595 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4CDC214202AB800748595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4CDC814202AB800748595 /* SenTestingKit.framework in Frameworks */,
+				03B4CDC914202AB800748595 /* UIKit.framework in Frameworks */,
+				03B4CDCA14202AB800748595 /* Foundation.framework in Frameworks */,
+				03B4CDCB14202AB800748595 /* CoreGraphics.framework in Frameworks */,
+				03B4CDCC14202AB800748595 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B4CD8D14202AB800748595 = {
+			isa = PBXGroup;
+			children = (
+				03B4CDE9142030FF00748595 /* ExposureViewController.h */,
+				03B4CDEA142030FF00748595 /* ExposureViewController.m */,
+				03B4CDA414202AB800748595 /* FilmNotes */,
+				03B4CDCF14202AB800748595 /* FilmNotesTests */,
+				03B4CD9B14202AB800748595 /* Frameworks */,
+				03B4CD9914202AB800748595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B4CD9914202AB800748595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B4CD9814202AB800748595 /* FilmNotes.app */,
+				03B4CDC614202AB800748595 /* FilmNotesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B4CD9B14202AB800748595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03B4CD9C14202AB800748595 /* UIKit.framework */,
+				03B4CD9E14202AB800748595 /* Foundation.framework */,
+				03B4CDA014202AB800748595 /* CoreGraphics.framework */,
+				03B4CDA214202AB800748595 /* CoreData.framework */,
+				03B4CDC714202AB800748595 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B4CDA414202AB800748595 /* FilmNotes */ = {
+			isa = PBXGroup;
+			children = (
+				03B4CDAD14202AB800748595 /* FilmNotesAppDelegate.h */,
+				03B4CDAE14202AB800748595 /* FilmNotesAppDelegate.m */,
+				03B4CDB014202AB800748595 /* FilmNotes.xcdatamodeld */,
+				03B4CDE11420303300748595 /* Exposure.h */,
+				03B4CDE21420303300748595 /* Exposure.m */,
+				03B4CDB314202AB800748595 /* iPhone */,
+				03B4CDBA14202AB800748595 /* iPad */,
+				03B4CDA514202AB800748595 /* Supporting Files */,
+			);
+			path = FilmNotes;
+			sourceTree = "<group>";
+		};
+		03B4CDA514202AB800748595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03B4CDA614202AB800748595 /* FilmNotes-Info.plist */,
+				03B4CDA714202AB800748595 /* InfoPlist.strings */,
+				03B4CDAA14202AB800748595 /* main.m */,
+				03B4CDAC14202AB800748595 /* FilmNotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03B4CDB314202AB800748595 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				03B4CDB414202AB800748595 /* FilmNotesAppDelegate_iPhone.h */,
+				03B4CDB514202AB800748595 /* FilmNotesAppDelegate_iPhone.m */,
+				03B4CDB714202AB800748595 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		03B4CDBA14202AB800748595 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				03B4CDBB14202AB800748595 /* FilmNotesAppDelegate_iPad.h */,
+				03B4CDBC14202AB800748595 /* FilmNotesAppDelegate_iPad.m */,
+				03B4CDBE14202AB800748595 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		03B4CDCF14202AB800748595 /* FilmNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				03B4CDD514202AB800748595 /* FilmNotesTests.h */,
+				03B4CDD714202AB800748595 /* FilmNotesTests.m */,
+				03B4CDD014202AB800748595 /* Supporting Files */,
+			);
+			path = FilmNotesTests;
+			sourceTree = "<group>";
+		};
+		03B4CDD014202AB800748595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03B4CDD114202AB800748595 /* FilmNotesTests-Info.plist */,
+				03B4CDD214202AB800748595 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B4CD9714202AB800748595 /* FilmNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B4CDDB14202AB800748595 /* Build configuration list for PBXNativeTarget "FilmNotes" */;
+			buildPhases = (
+				03B4CD9414202AB800748595 /* Sources */,
+				03B4CD9514202AB800748595 /* Frameworks */,
+				03B4CD9614202AB800748595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmNotes;
+			productName = FilmNotes;
+			productReference = 03B4CD9814202AB800748595 /* FilmNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B4CDC514202AB800748595 /* FilmNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B4CDDE14202AB800748595 /* Build configuration list for PBXNativeTarget "FilmNotesTests" */;
+			buildPhases = (
+				03B4CDC114202AB800748595 /* Sources */,
+				03B4CDC214202AB800748595 /* Frameworks */,
+				03B4CDC314202AB800748595 /* Resources */,
+				03B4CDC414202AB800748595 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B4CDCE14202AB800748595 /* PBXTargetDependency */,
+			);
+			name = FilmNotesTests;
+			productName = FilmNotesTests;
+			productReference = 03B4CDC614202AB800748595 /* FilmNotesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B4CD8F14202AB800748595 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 03B4CD9214202AB800748595 /* Build configuration list for PBXProject "FilmNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03B4CD8D14202AB800748595;
+			productRefGroup = 03B4CD9914202AB800748595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B4CD9714202AB800748595 /* FilmNotes */,
+				03B4CDC514202AB800748595 /* FilmNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B4CD9614202AB800748595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4CDA914202AB800748595 /* InfoPlist.strings in Resources */,
+				03B4CDB914202AB800748595 /* MainWindow_iPhone.xib in Resources */,
+				03B4CDC014202AB800748595 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4CDC314202AB800748595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4CDD414202AB800748595 /* InfoPlist.strings in Resources */,
+				03B4CDD614202AB800748595 /* FilmNotesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03B4CDC414202AB800748595 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B4CD9414202AB800748595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4CDAB14202AB800748595 /* main.m in Sources */,
+				03B4CDAF14202AB800748595 /* FilmNotesAppDelegate.m in Sources */,
+				03B4CDB214202AB800748595 /* FilmNotes.xcdatamodeld in Sources */,
+				03B4CDB614202AB800748595 /* FilmNotesAppDelegate_iPhone.m in Sources */,
+				03B4CDBD14202AB800748595 /* FilmNotesAppDelegate_iPad.m in Sources */,
+				03B4CDE31420303300748595 /* Exposure.m in Sources */,
+				03B4CDEB142030FF00748595 /* ExposureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B4CDC114202AB800748595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B4CDD814202AB800748595 /* FilmNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B4CDCE14202AB800748595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B4CD9714202AB800748595 /* FilmNotes */;
+			targetProxy = 03B4CDCD14202AB800748595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03B4CDA714202AB800748595 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B4CDA814202AB800748595 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03B4CDB714202AB800748595 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B4CDB814202AB800748595 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		03B4CDBE14202AB800748595 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B4CDBF14202AB800748595 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		03B4CDD214202AB800748595 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B4CDD314202AB800748595 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B4CDD914202AB800748595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B4CDDA14202AB800748595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B4CDDC14202AB800748595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilmNotes/FilmNotes-Prefix.pch";
+				INFOPLIST_FILE = "FilmNotes/FilmNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03B4CDDD14202AB800748595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilmNotes/FilmNotes-Prefix.pch";
+				INFOPLIST_FILE = "FilmNotes/FilmNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03B4CDDF14202AB800748595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FilmNotes.app/FilmNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilmNotes/FilmNotes-Prefix.pch";
+				INFOPLIST_FILE = "FilmNotesTests/FilmNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		03B4CDE014202AB800748595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FilmNotes.app/FilmNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilmNotes/FilmNotes-Prefix.pch";
+				INFOPLIST_FILE = "FilmNotesTests/FilmNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B4CD9214202AB800748595 /* Build configuration list for PBXProject "FilmNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B4CDD914202AB800748595 /* Debug */,
+				03B4CDDA14202AB800748595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B4CDDB14202AB800748595 /* Build configuration list for PBXNativeTarget "FilmNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B4CDDC14202AB800748595 /* Debug */,
+				03B4CDDD14202AB800748595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03B4CDDE14202AB800748595 /* Build configuration list for PBXNativeTarget "FilmNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B4CDDF14202AB800748595 /* Debug */,
+				03B4CDE014202AB800748595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03B4CDB014202AB800748595 /* FilmNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03B4CDB114202AB800748595 /* FilmNotes.xcdatamodel */,
+			);
+			currentVersion = 03B4CDB114202AB800748595 /* FilmNotes.xcdatamodel */;
+			path = FilmNotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03B4CD8F14202AB800748595 /* Project object */;
+}
